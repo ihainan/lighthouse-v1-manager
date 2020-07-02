@@ -1,6 +1,6 @@
 # Manager for V1 Lighthouses by Valve/HTC
 
-This project is based on [nouser2013](https://github.com/nouser2013)'s [lighthouse-v2-manager](https://github.com/nouser2013/lighthouse-v2-manager), thanks for the awesome work.
+__This project is based on [nouser2013](https://github.com/nouser2013)'s [lighthouse-v2-manager](https://github.com/nouser2013/lighthouse-v2-manager), thanks for the awesome work.__
 
 This python script helps you switch your Valve Lighthouses v1 on and into stand-by. Unfortunately, my Pimax 5K XR needs the lighthouses up and running before I turn it on, so the awesome work done by [@mann1x]( https://github.com/mann1x ) in his project [Pimax BS Manager](https://github.com/mann1x/pimax_bs_manager) is of little use to me. This may be different with your particular Pimax HMD.
 
@@ -41,6 +41,8 @@ Optionally, since version 1.1, you can specify the command line option `-cs` or 
 If you want to switch a lighthouse off ("stand-by"), specify either "off" as first argument and then each MAC address consecutively as further arguments like so:
 
 **usage:** `python3 .\lighthouse-v1-manager.py off aa:aa:aa:aa:aa:aa bb:bb:bb:bb:bb:bb ...`
+
+__It will take around 1 minute to put the base stations into stand-by mode.__
 
 The lighthouses LED will now start a blue breathing animation, that is, it will fade-in and fade-out to indicate its standby operation state.
 
